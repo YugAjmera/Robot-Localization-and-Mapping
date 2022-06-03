@@ -162,7 +162,7 @@ def run_slam(src_dir, log_dir, idx, split):
             display_map[list_x,list_y] = [228,70,70]          	# Estimated trajectory
 
 
-            #display_map[list_odom_x,list_odom_y] = [70,70,228]         # Odometry trajectory
+            display_map[list_odom_x,list_odom_y] = [70,70,228]         # Odometry trajectory
             
             plt.imshow(display_map)
             plt.pause(0.01)

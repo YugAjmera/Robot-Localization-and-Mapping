@@ -7,18 +7,18 @@ The problems are described in more detail in [Problems.pdf](https://github.com/Y
 ### Problem 1 - Extended Kalman Filter (EKF)
 The aim of this problem is to use filtering to estimate an unknown parameter of a non-linear dynamical system. Collected a dataset of observations using the ground truth value of the system parameter and developed the EKF equations that uses this dataset to estimate it. 
 
-<img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%201%20-%20EKF/Figure_2.png" width="300"> 
+<img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%201%20-%20EKF/Figure_2.png" width="400"> 
 
 
 ### Problem 2 - Unscented Kalman Filter (UKF)
 Implemented a quaternion-based 7-DOF UKF for tracking the orientation of a drone in three-dimensions using 6-axis IMU data. The Vicon data is used as ground truth for calibration and tuning of the filter. 
 
-<img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%202%20-%20UKF/images/roll.png" width="250"><img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%202%20-%20UKF/images/pitch.png" width="250"><img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%202%20-%20UKF/images/yaw.png" width="250">
+<img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%202%20-%20UKF/images/roll.png" width="260"><img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%202%20-%20UKF/images/pitch.png" width="260"><img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%202%20-%20UKF/images/yaw.png" width="260">
 
 ### Problem 3 - Simultaneous Localization and Mapping (SLAM) with Particle Filter
 Coded a particle filter based SLAM using odometry and lidar data collected on THOR-OP humanoid robot to build a 2D occupancy grid map of indoor environments.
 
-<img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%203%20-%20Particle%20Filter/map1.png" width="400"><img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%203%20-%20Particle%20Filter/map2.png" width="420"> 
+<img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%203%20-%20Particle%20Filter/map1.png" width="400"><img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%203%20-%20Particle%20Filter/map2.png" width="400"> 
 <img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%203%20-%20Particle%20Filter/map3.png" width="400"><img src="https://github.com/YugAjmera/Robot-Localization-and-Mapping/blob/main/Problem%203%20-%20Particle%20Filter/map4.png" width="400"> 
 
 
